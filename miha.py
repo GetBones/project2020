@@ -5,9 +5,7 @@ def pars():
     dirs = os.listdir(path)
     for file in dirs:
         print(file)
-
     print()
-
     def ras(s):
         for i in range(len(s)):
             if s[-i] == '.': return s[-i + 1:]
